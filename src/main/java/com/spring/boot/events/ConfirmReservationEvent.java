@@ -15,9 +15,7 @@ public class ConfirmReservationEvent extends GenericEvent {
 
 	@Override
 	public String toString() {
-		return "ConfirmReservationEvent [name=" + name + ", getUid()=" + getUid() + ", getEventDate()=" + getEventDate()
-				+ ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
-				+ "]";
+		return "ConfirmReservationEvent [name=" + name + ", uid=" + uid + ", eventDate=" + eventDate + "]";
 	}
 	
 }

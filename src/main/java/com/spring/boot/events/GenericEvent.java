@@ -5,19 +5,19 @@ import java.util.UUID;
 
 public class GenericEvent {
 	
-	private final UUID uid;
-	private final LocalDateTime eventDate;
+	protected final UUID uid;
+	protected final LocalDateTime eventDate;
 	
 	public GenericEvent() {
 		this.uid = UUID.randomUUID();
 		this.eventDate = LocalDateTime.now();
 	}
 
-	public UUID getUid() {
+	protected UUID getUid() {
 		return uid;
 	}
 
-	public LocalDateTime getEventDate() {
+	protected LocalDateTime getEventDate() {
 		return eventDate;
 	}
 

@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.spring.boot.events.CancelReservationEvent;
 import com.spring.boot.events.ConfirmReservationEvent;
-import com.spring.boot.services.publisher.CancelPublishingService;
-import com.spring.boot.services.publisher.ConfirmPublishingService;
+import com.spring.boot.events.publishers.CancelPublishingService;
+import com.spring.boot.events.publishers.ConfirmPublishingService;
 
 @Controller
 @RequestMapping("/reservation")
